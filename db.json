@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Learn React",
+      "status": "pending",
+      "description": "Hooksni chuqur tushunish",
+      "dueDate": "2026-04-01"
+    },
+    {
+      "id": "2",
+      "title": "Build a Todo App with JSON Server",
+      "description": "Json-server chuqur tushunish",
+      "status": "pending",
+      "dueDate": "2026-04-15"
+    },
+    {
+      "id": "3",
+      "title": "Style the application using CSS",
+      "description": "CSS chuqur tushunish",
+      "status": "pending",
+      "dueDate": null
+    }
+  ]
+}

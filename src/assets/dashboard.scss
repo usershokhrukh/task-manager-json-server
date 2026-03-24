@@ -1,0 +1,71 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 5% 20px 20px 20px;
+  margin: auto;
+  max-width: 1000px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  gap: 50px;
+  &__top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+  }
+
+  &__main {
+    width: 100%;
+  }
+
+  &__title {
+    color: white;
+    opacity: 0.8;
+  }
+
+  &__c-button {
+    border: 1px solid rgb(73, 209, 73);
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: rgb(5, 161, 5);
+    color: white;
+    outline: none;
+    opacity: 0.9;
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    &:active {
+      background-color: rgb(11, 184, 11);
+      opacity: 1;
+    }
+  }
+
+  &__not-found {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.397);
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  &__load {
+    color: white;
+    font-size: 20px;
+  }
+
+  &__detail-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(34, 10, 10, 0.404);
+    backdrop-filter: blur(5px);
+  }
+}
