@@ -60,10 +60,10 @@ const Dashboard = () => {
       <main className="dashboard__main">
         <Routes>
           <Route path="/" element={<></>} />
-          <Route path="/create" element={<CreateTasks setData={setData} tasksData={data} />} />
+          <Route path="/create" element={<CreateTasks setData={setData} />} />
           <Route path="/detail/:id" element={<ShowDetail />} />
-          <Route path="/edit/:id" element={<EditTask setData={setData} tasksData={data} />} />
-          <Route path="/delete/:id" element={<DeleteTask setData={setData} tasksData={data} />} />
+          <Route path="/edit/:id" element={<EditTask setData={setData} />} />
+          <Route path="/delete/:id" element={<DeleteTask setData={setData} />} />
           <Route
             path="*"
             element={<h2 className="dashboard__not-found">Not Found</h2>}

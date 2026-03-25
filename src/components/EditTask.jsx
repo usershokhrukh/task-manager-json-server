@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import {useNavigate, useParams} from "react-router-dom";
 import {toast} from "react-toastify";
 
-const EditTask = ({setData, tasksData}) => {
+const EditTask = ({setData}) => {
   const navigate = useNavigate();
   const {id} = useParams();
   const [data, setTasksData] = useState({
@@ -112,7 +112,7 @@ const EditTask = ({setData, tasksData}) => {
               className=" create-tasks__loader-button create-tasks__button"
               type="submit"
             >
-              Create Task
+              Edit Task
             </button>
             <button
               className=" create-tasks__loader-button create-tasks__button"
@@ -154,7 +154,7 @@ const EditTask = ({setData, tasksData}) => {
           />
           <div className="create-tasks__buttons">
             <button className="create-tasks__button" type="submit">
-              Create Task
+                Edit Task
             </button>
             <button
               onClick={() => {

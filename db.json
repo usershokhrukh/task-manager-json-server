@@ -1,53 +1,11 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "title": "salomqwfe",
+      "id": "8i8Y2r4jtfM",
       "status": "pending",
-      "description": "Hooksni chuqur tushunish",
-      "dueDate": "2026-04-01"
-    },
-    {
-      "id": "2",
-      "title": "Build a Todo App with JSON Server",
-      "description": "Json-server chuqur tushunishnimadir\n",
-      "status": "pending",
-      "dueDate": "2026-04-15"
-    },
-    {
-      "id": "3",
-      "title": "Style the application using CSS",
-      "description": "CSS chuqur tushunish",
-      "status": "pending",
-      "dueDate": null
-    },
-    {
-      "id": "f7MljSCsERY",
-      "status": "pending",
-      "title": "qwfw",
-      "description": "qef",
-      "dueDate": "2026-03-11"
-    },
-    {
-      "id": "TbiWgXFXvhU",
-      "status": "pending",
-      "title": "wfeq",
-      "description": "wef",
-      "dueDate": "2026-03-12"
-    },
-    {
-      "id": "19Qk57dvWZE",
-      "status": "pending",
-      "title": "qwefw",
-      "description": "fe",
-      "dueDate": "2026-04-06"
-    },
-    {
-      "id": "T2kSHE2dTX8",
-      "status": "pending",
-      "title": "something",
-      "description": "bilmadim",
-      "dueDate": "2001-09-11"
+      "title": "qwef",
+      "description": "qweof",
+      "dueDate": "2026-03-14"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

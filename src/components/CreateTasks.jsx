@@ -3,7 +3,7 @@ import "../assets/create-tasks.scss";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
-const CreateTasks = ({setData, tasksData}) => {
+const CreateTasks = ({setData}) => {
   const navigate = useNavigate()
   const [data, setTasksData] = useState({
     id: "",
