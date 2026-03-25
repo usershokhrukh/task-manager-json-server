@@ -5,7 +5,7 @@
   // background-color: red;
   width: 100%;
 
-  &__item{
+  &__item {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -13,6 +13,16 @@
     border-radius: 8px;
     box-shadow: 0px 0px 10px -3px rgb(44, 44, 134);
     padding: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   &__item-tid {
@@ -22,7 +32,7 @@
   }
 
   &__close {
-        border: 1px solid rgb(73, 209, 73);
+    border: 1px solid rgb(73, 209, 73);
     padding: 3px 4px;
     border-radius: 5px;
     background-color: rgb(5, 161, 5);
@@ -59,11 +69,11 @@
     border-radius: 8px;
 
     & svg {
-      width: 17px;;
+      width: 17px;
       color: rgb(67, 67, 112);
     }
 
-      &:hover {
+    &:hover {
       opacity: 1;
       cursor: pointer;
     }
@@ -98,8 +108,8 @@
     font-weight: 500;
   }
 
-  &__item-main{
-    font-size: 20px;;
+  &__item-main {
+    font-size: 20px;
     color: white;
   }
 
@@ -111,5 +121,4 @@
     display: flex;
     justify-content: end;
   }
-
 }

@@ -5,9 +5,7 @@ import {toast} from "react-toastify";
 
 const ShowDetail = () => {
   const {id} = useParams();
-  console.log(id);
   const navigate = useNavigate();
-
   const [data, setData] = useState({});
   useEffect(() => {
     try {

@@ -1,8 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import "../assets/tasks.scss";
 const RenderTaskGetData = ({tasks}) => {
-  console.log(tasks);
   const navigate = useNavigate()
   const handleView = (id) => {
     navigate(`/detail/${id}`)
@@ -26,7 +25,7 @@ const RenderTaskGetData = ({tasks}) => {
                 </svg>
               </span>
             </button>
-            <button className="tasks__item-acbutts">
+            <button onClick={() => {navigate(`/edit/${id}`)}} className="tasks__item-acbutts">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +36,7 @@ const RenderTaskGetData = ({tasks}) => {
                 </svg>
               </span>
             </button>
-            <button className="tasks__item-acbutts">
+            <button onClick={() => {navigate(`/delete/${id}`)}} className="tasks__item-acbutts">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
